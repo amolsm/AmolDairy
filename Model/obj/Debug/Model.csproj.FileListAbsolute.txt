@@ -1,0 +1,10 @@
+F:\Amol Projects\NanjilERP\Model\bin\Debug\Model.dll
+F:\Amol Projects\NanjilERP\Model\bin\Debug\Model.pdb
+F:\Amol Projects\NanjilERP\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+F:\Amol Projects\NanjilERP\Model\obj\Debug\Model.dll
+F:\Amol Projects\NanjilERP\Model\obj\Debug\Model.pdb
+F:\Amol Projects\NanjilERP\Model\bin\Debug\Model.dll.config
+F:\Amol Projects\NanjilERP\Model\bin\Debug\EntityFramework.dll
+F:\Amol Projects\NanjilERP\Model\bin\Debug\EntityFramework.SqlServer.dll
+F:\Amol Projects\NanjilERP\Model\bin\Debug\EntityFramework.xml
+F:\Amol Projects\NanjilERP\Model\bin\Debug\EntityFramework.SqlServer.xml

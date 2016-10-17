@@ -1,0 +1,59 @@
+﻿<aside class="main-sidebar">
+    <section class="sidebar">
+        @* BEGIN Search *@
+        @*<form action="#" method="get" class="sidebar-form">
+            <div class="input-group">
+                <input type="text" name="q" class="form-control" placeholder="Search...">
+                <span class="input-group-btn">
+                    <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+        </form>*@
+        @* END Search *@
+        @* BEGIN Menu *@
+        <ul class="sidebar-menu">
+           
+            
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-link"></i> <span>Master Details</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="@Url.Action("RouteList", "MasterDetails")"><i class="fa fa-circle-o"></i> Routes</a></li>
+                    <li><a href="@Url.Action("TypesList", "MasterDetails")"><i class="fa fa-circle-o"></i> Product Types</a></li>
+                    <li><a href="@Url.Action("CommodityList", "MasterDetails")"><i class="fa fa-circle-o"></i> Commodities</a></li>
+                    <li><a href="@Url.Action("ProductList", "MasterDetails")"><i class="fa fa-circle-o"></i> Products</a></li>
+                    <li><a href="@Url.Action("SlabList", "MasterDetails")"><i class="fa fa-circle-o"></i> Slabs</a></li>
+                    <li><a href="@Url.Action("BrandList", "MasterDetails")"><i class="fa fa-circle-o"></i> Brands</a></li>
+                    <li><a href="@Url.Action("EmployeeList", "MasterDetails")"><i class="fa fa-circle-o"></i> Employees</a></li>
+                    <li><a href="@Url.Action("AgencyList", "MasterDetails")"><i class="fa fa-circle-o"></i> Agencies</a></li>
+                    <li><a href="@Url.Action("DepartmentList", "MasterDetails")"><i class="fa fa-circle-o"></i> Departments</a></li>
+                    <li><a href="@Url.Action("DesignationList", "MasterDetails")"><i class="fa fa-circle-o"></i> Designations</a></li>
+                    <li><a href="@Url.Action("UnitList", "MasterDetails")"><i class="fa fa-circle-o"></i> Units</a></li>
+                    <li><a href="@Url.Action("CountryList", "MasterDetails")"><i class="fa fa-circle-o"></i> Countries</a></li>
+                    <li><a href="@Url.Action("StateList", "MasterDetails")"><i class="fa fa-circle-o"></i> States</a></li>
+                    <li><a href="@Url.Action("DistrictList", "MasterDetails")"><i class="fa fa-circle-o"></i> Districts</a></li>
+                </ul>
+            </li>
+
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-link"></i> <span>User Management</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="@Url.Action("Index", "ManageUsers")"><i class="fa fa-circle-o"></i> Users</a></li>
+                    <li><a href="@Url.Action("TypeList", "MasterDetails")"><i class="fa fa-circle-o"></i> Product Types</a></li>
+                </ul>
+            </li>
+        </ul>
+        @* END Menu *@
+    </section>
+</aside>
