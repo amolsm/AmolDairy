@@ -8,3 +8,13 @@ F:\Amol Projects\NanjilERP\Model\bin\Debug\EntityFramework.dll
 F:\Amol Projects\NanjilERP\Model\bin\Debug\EntityFramework.SqlServer.dll
 F:\Amol Projects\NanjilERP\Model\bin\Debug\EntityFramework.xml
 F:\Amol Projects\NanjilERP\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\DairyMVC\AmolDairy\Model\bin\Debug\Model.dll.config
+D:\DairyMVC\AmolDairy\Model\bin\Debug\Model.dll
+D:\DairyMVC\AmolDairy\Model\bin\Debug\Model.pdb
+D:\DairyMVC\AmolDairy\Model\bin\Debug\EntityFramework.dll
+D:\DairyMVC\AmolDairy\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\DairyMVC\AmolDairy\Model\bin\Debug\EntityFramework.xml
+D:\DairyMVC\AmolDairy\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\DairyMVC\AmolDairy\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\DairyMVC\AmolDairy\Model\obj\Debug\Model.dll
+D:\DairyMVC\AmolDairy\Model\obj\Debug\Model.pdb

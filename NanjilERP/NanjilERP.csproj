@@ -188,6 +188,8 @@
     <Compile Include="Areas\Admin\Models\UserVM.cs" />
     <Compile Include="Areas\Admin\Models\UserlistViewModel.cs" />
     <Compile Include="Areas\Reception\ReceptionAreaRegistration.cs" />
+    <Compile Include="Areas\Transport\Controllers\TransportMasterController.cs" />
+    <Compile Include="Areas\Transport\TransportAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -400,6 +402,10 @@
     <Content Include="Areas\Admin\Views\MasterDetails\AgencyList.cshtml" />
     <Content Include="Areas\Admin\Views\MasterDetails\_AgencyCreate.cshtml" />
     <Content Include="Areas\Admin\Views\ManageUsers\_UserCreate.cshtml" />
+    <Content Include="Areas\Transport\Views\web.config" />
+    <Content Include="Areas\Transport\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Transport\Views\TransportMaster\BrandList.cshtml" />
+    <Content Include="Areas\Transport\Views\TransportMaster\_BrandCreate.cshtml" />
     <None Include="Scripts\jquery-1.12.4.intellisense.js" />
     <Content Include="Scripts\jquery-1.12.4.js" />
     <Content Include="Scripts\jquery-1.12.4.min.js" />
@@ -461,6 +467,8 @@
     <Folder Include="Areas\Reception\Controllers\" />
     <Folder Include="Areas\Reception\Models\" />
     <Folder Include="Areas\Reception\Views\Shared\" />
+    <Folder Include="Areas\Transport\Models\" />
+    <Folder Include="Areas\Transport\Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

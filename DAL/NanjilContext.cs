@@ -1,4 +1,5 @@
 ﻿using Model;
+using Model.Transport;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -27,5 +28,9 @@ namespace DAL
         public DbSet<Route> routes { get; set; }
         public DbSet<Employee> employees { get; set; }
         public DbSet<Agency> agencies { get; set; }
+
+
+        //Transport
+        public DbSet<VehicleBrand> vehicleBrands { get; set; }
     }
 }

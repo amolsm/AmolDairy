@@ -68,6 +68,7 @@
     <Compile Include="Entities\test.cs" />
     <Compile Include="Entities\Types.cs" />
     <Compile Include="Entities\Unit.cs" />
+    <Compile Include="Transport\VehicleBrand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
