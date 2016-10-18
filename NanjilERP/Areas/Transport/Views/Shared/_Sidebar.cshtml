@@ -1,0 +1,35 @@
+﻿<aside class="main-sidebar">
+    <section class="sidebar">
+       
+        <ul class="sidebar-menu">
+           
+            
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-link"></i> <span>Master Details</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="@Url.Action("BrandList", "TransportMaster")"><i class="fa fa-circle-o"></i> Vehicle Brands</a></li>
+                    <li><a href="@Url.Action("ModelList", "TransportMaster")"><i class="fa fa-circle-o"></i> Vehicle Models</a></li>
+                    </ul>
+            </li>
+
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-link"></i> <span>User Management</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="@Url.Action("Index", "ManageUsers")"><i class="fa fa-circle-o"></i> Users</a></li>
+                   
+                </ul>
+            </li>
+        </ul>
+        @* END Menu *@
+    </section>
+</aside>

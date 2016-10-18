@@ -32,5 +32,7 @@ namespace DAL
 
         //Transport
         public DbSet<VehicleBrand> vehicleBrands { get; set; }
+        public DbSet<VehicleModel> vehicleModels { get; set; }
+
     }
 }

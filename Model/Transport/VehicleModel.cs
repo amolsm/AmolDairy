@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Model.Transport
 {
-    public class VehicleBrand
+   public class VehicleModel
     {
+        public int VehicleModelId { get; set; }
+        [Required]
         public int VehicleBrandId { get; set; }
         [Required]
-        public string BrandName { get; set; }
-
-      
+        public string ModelName { get; set; }
         public bool IsActive { get; set; }
     }
 }
