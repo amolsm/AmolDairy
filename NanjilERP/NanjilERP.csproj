@@ -187,7 +187,12 @@
     <Compile Include="Areas\Admin\Models\UserCreateVM.cs" />
     <Compile Include="Areas\Admin\Models\UserVM.cs" />
     <Compile Include="Areas\Admin\Models\UserlistViewModel.cs" />
-    <Compile Include="Areas\Reception\ReceptionAreaRegistration.cs" />
+    <Compile Include="Areas\Booth\BoothAreaRegistration.cs" />
+    <Compile Include="Areas\Dispatch\DispatchAreaRegistration.cs" />
+    <Compile Include="Areas\Purchase\PurchaseAreaRegistration.cs" />
+    <Compile Include="Areas\Sales\Controllers\SlabsController.cs" />
+    <Compile Include="Areas\Sales\Models\BindSlabListVM.cs" />
+    <Compile Include="Areas\Sales\SalesAreaRegistration.cs" />
     <Compile Include="Areas\Transport\Controllers\TransportMasterController.cs" />
     <Compile Include="Areas\Transport\Models\ModelListVM.cs" />
     <Compile Include="Areas\Transport\TransportAreaRegistration.cs" />
@@ -386,7 +391,6 @@
     <Content Include="Areas\Admin\Views\MasterDetails\DepartmentList.cshtml" />
     <Content Include="Areas\Admin\Views\MasterDetails\RouteList.cshtml" />
     <Content Include="Areas\Admin\Views\Dashboard\Index.cshtml" />
-    <Content Include="Areas\Reception\Views\web.config" />
     <Content Include="Areas\Admin\Views\ManageUsers\Index.cshtml" />
     <Content Include="Areas\Admin\Views\MasterDetails\TypesList.cshtml" />
     <Content Include="Areas\Admin\Views\MasterDetails\_TypesCreate.cshtml" />
@@ -411,6 +415,17 @@
     <Content Include="Areas\Transport\Views\Shared\_Sidebar.cshtml" />
     <Content Include="Areas\Transport\Views\TransportMaster\ModelList.cshtml" />
     <Content Include="Areas\Transport\Views\TransportMaster\_ModelCreate.cshtml" />
+    <Content Include="Areas\Purchase\Views\web.config" />
+    <Content Include="Areas\Booth\Views\web.config" />
+    <Content Include="Areas\Dispatch\Views\web.config" />
+    <Content Include="Areas\Sales\Views\web.config" />
+    <Content Include="Areas\Sales\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Sales\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Sales\Views\Slabs\BindSlab.cshtml" />
+    <None Include="Scripts\jquery-1.10.2-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Scripts\jquery-1.12.4.intellisense.js" />
     <Content Include="Scripts\jquery-1.12.4.js" />
     <Content Include="Scripts\jquery-1.12.4.min.js" />
@@ -469,9 +484,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\Reception\Controllers\" />
-    <Folder Include="Areas\Reception\Models\" />
-    <Folder Include="Areas\Reception\Views\Shared\" />
+    <Folder Include="Areas\Booth\Controllers\" />
+    <Folder Include="Areas\Booth\Models\" />
+    <Folder Include="Areas\Booth\Views\Shared\" />
+    <Folder Include="Areas\Dispatch\Controllers\" />
+    <Folder Include="Areas\Dispatch\Models\" />
+    <Folder Include="Areas\Dispatch\Views\Shared\" />
+    <Folder Include="Areas\Purchase\Controllers\" />
+    <Folder Include="Areas\Purchase\Models\" />
+    <Folder Include="Areas\Purchase\Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

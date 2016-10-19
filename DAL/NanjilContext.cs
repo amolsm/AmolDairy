@@ -1,4 +1,5 @@
 ﻿using Model;
+using Model.Sales;
 using Model.Transport;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace DAL
         public NanjilContext() : base("DefaultConnection")
         { }
 
+        #region Admin
         public DbSet<Brand> brands { get; set; }
         public DbSet<Types> types { get; set; }
         public DbSet<Commodity> commodities { get; set; }
@@ -28,11 +30,16 @@ namespace DAL
         public DbSet<Route> routes { get; set; }
         public DbSet<Employee> employees { get; set; }
         public DbSet<Agency> agencies { get; set; }
+        #endregion
 
+        #region Sales
+        public DbSet<BindSlab> bindSlabs { get; set; }
+        #endregion
 
-        //Transport
+        #region Transport
         public DbSet<VehicleBrand> vehicleBrands { get; set; }
         public DbSet<VehicleModel> vehicleModels { get; set; }
+        #endregion
 
     }
 }

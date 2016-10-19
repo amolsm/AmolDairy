@@ -18,3 +18,13 @@ D:\DairyMVC\AmolDairy\Model\bin\Debug\EntityFramework.SqlServer.xml
 D:\DairyMVC\AmolDairy\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 D:\DairyMVC\AmolDairy\Model\obj\Debug\Model.dll
 D:\DairyMVC\AmolDairy\Model\obj\Debug\Model.pdb
+F:\Amol Projects\AmolDairy\Model\bin\Debug\Model.dll.config
+F:\Amol Projects\AmolDairy\Model\bin\Debug\Model.dll
+F:\Amol Projects\AmolDairy\Model\bin\Debug\Model.pdb
+F:\Amol Projects\AmolDairy\Model\bin\Debug\EntityFramework.dll
+F:\Amol Projects\AmolDairy\Model\bin\Debug\EntityFramework.SqlServer.dll
+F:\Amol Projects\AmolDairy\Model\bin\Debug\EntityFramework.xml
+F:\Amol Projects\AmolDairy\Model\bin\Debug\EntityFramework.SqlServer.xml
+F:\Amol Projects\AmolDairy\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+F:\Amol Projects\AmolDairy\Model\obj\Debug\Model.dll
+F:\Amol Projects\AmolDairy\Model\obj\Debug\Model.pdb

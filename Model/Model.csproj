@@ -68,6 +68,7 @@
     <Compile Include="Entities\test.cs" />
     <Compile Include="Entities\Types.cs" />
     <Compile Include="Entities\Unit.cs" />
+    <Compile Include="Sales\BindSlab.cs" />
     <Compile Include="Transport\VehicleBrand.cs" />
     <Compile Include="Transport\VehicleModel.cs" />
   </ItemGroup>
